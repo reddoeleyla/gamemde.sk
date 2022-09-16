@@ -1,0 +1,76 @@
+command /gmc
+    permission: sk.gmc
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute comamnd "/gamemode 1"
+        send "&7Sei andato in &acreative"
+
+
+
+
+command /gms
+    permission: sk.gms
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute comamnd "/gamemode 0"
+        send "&7sei andato in &asurvival"
+
+
+
+
+command /gma
+    permission: sk.gma
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute comamnd "/gamemode 2"
+        send "&7sei andato in &aavventura"
+
+
+
+
+command /gmsp
+    permission: sk.gmsp
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute comamnd "/gamemode 3"
+        send "&7sei andato in &aspectator"
+
+
+
+
+command /gmc [<offline player>]
+    permission: sk.gmc.other
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute comamnd "/gamemode 1 %arg 1%"
+        send "&7Hai messo &c%arg 1% &7 in &acreative"
+
+
+
+
+command /gms [<offline player>]
+    permission: sk.gms.other
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute comamnd "/gamemode 0 %arg 1%"
+        send &7Hai messo &c%arg 1% &7 in &asurvival"
+
+
+
+
+command /gma [<offline player>]
+    permission: sk.gma.other
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute comamnd "/gamemode 2 %arg 1%"
+        send "&7Hai messo &c%arg 1% &7 in &aavventura"
+
+
+
+
+command /gmsp [<offline player>]
+    permission: sk.gmsp.other
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute comamnd "/gamemode 3 %arg 1%"
+        send "&7Hai messo &c%arg 1% &7 in &aspectator"
