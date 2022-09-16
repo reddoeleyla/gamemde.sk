@@ -1,0 +1,9 @@
+permissions:
+sk.gmc
+sk.gms
+sk.gma
+sk.gmsp
+sk.gmc.other
+sk.gms.other
+sk.gma.other
+sk.gmsp.other
