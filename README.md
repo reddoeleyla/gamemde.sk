@@ -1,0 +1,1 @@
+# gamemde.sk
